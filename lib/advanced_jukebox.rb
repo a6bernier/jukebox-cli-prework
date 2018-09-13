@@ -72,30 +72,3 @@ def help
     end
   end
 end
-
-
-
-def list(my_songs)
-  #this method is different! Collect the keys of the my_songs hash and
-  #list the songs by name
-end
-
-
-def play(my_songs)
-  #this method is slightly different!
-  #you should still ask the user for input and collect their song choice
-  #this time, only allow user's to input a song name
-  #check to see if the name they give is in fact a key of the my_songs hash
-  #if it isn't, tell them their choice is invalid
-  #if it is, play the song using the system 'open <file path>' syntax
-  #get the file path of the song by looking it up in the my_songs hash
-
-end
-
-def exit_jukebox
-  #this method is the same as in jukebox.rb
-end
-
-def run(my_songs)
-  #this method is the same as in jukebox.rb
-end
